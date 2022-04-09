@@ -1,10 +1,16 @@
 import React from 'react';
+import GlobalFonts from './components/styles/GlobalFonts';
+import CSSReset from './components/styles/CSSReset';
 
 function App() {
   return (
-    <div>
-      App Placeholder
-    </div>
+    <>
+      <CSSReset />
+      <GlobalFonts />
+      <h1>
+        App Placeholder
+      </h1>
+    </>
   );
 }
 
