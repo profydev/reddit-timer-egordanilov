@@ -7,6 +7,7 @@ import GlobalStyles from './components/styles/GlobalStyles';
 import Home from './components/routes/Home';
 import Search from './components/routes/Search';
 import NotFound from './components/routes/NotFound';
+import Header from './components/Header';
 import theme from './theme';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <CSSReset />
         <GlobalFonts />
         <GlobalStyles />
+        <Header />
         <h1>
           App Placeholder
         </h1>
